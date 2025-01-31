@@ -64,9 +64,36 @@
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-col-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}></Step>
-            <Step step={steps[1]}></Step>
-            <Step step={steps[2]}></Step>
+            <Step step={steps[0]}>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<strong
+                        class="text-violet-400"
+                        >Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</strong
+                    >Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<strong
+                        class="text-violet-400"
+                        >Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</strong
+                    >Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </Step>
+            <Step step={steps[2]}>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<strong
+                        class="text-violet-400"
+                        >Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.</strong
+                    >Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </Step>
         </div>
     </section>
 </main>
