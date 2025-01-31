@@ -1,4 +1,11 @@
 <script>
+    import Step from "./Step.svelte";
+
+    let steps = [
+        { name: "Project 1", icon: "fa-solid fa-cart-shopping" },
+        { name: "Project 2", icon: "fa-solid fa-list-check" },
+        { name: "Project 3", icon: "fa-solid fa-diagram-project" },
+    ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -48,9 +55,18 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a href="https://www.youtube.com" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+        <a
+            href="https://www.youtube.com"
+            target="_blank"
+            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+        >
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
         </a>
+        <div class="grid grid-cols-1 lg:grid-col-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}></Step>
+            <Step step={steps[1]}></Step>
+            <Step step={steps[2]}></Step>
+        </div>
     </section>
 </main>
