@@ -146,7 +146,9 @@
                 </div>
             {/each}
         </div>
-        <h5>The <span class="text-violet-400">Complete</span> Package</h5>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
+            The <span class="text-violet-400 poppins">Complete</span> Package
+        </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
