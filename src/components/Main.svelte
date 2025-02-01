@@ -6,6 +6,24 @@
         { name: "Project 2", icon: "fa-solid fa-list-check" },
         { name: "Project 3", icon: "fa-solid fa-diagram-project" },
     ];
+
+    let benefits = [
+        {
+            name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description:
+                "Etiam posuere porttitor fermentum. Sed varius vitae odio a dictum. Donec fringilla erat urna, et sollicitudin ex pulvinar sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi finibus ultricies sem, eget feugiat enim consectetur ac",
+        },
+        {
+            name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description:
+                "Etiam posuere porttitor fermentum. Sed varius vitae odio a dictum. Donec fringilla erat urna, et sollicitudin ex pulvinar sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi finibus ultricies sem, eget feugiat enim consectetur ac",
+        },
+        {
+            name: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            description:
+                "Etiam posuere porttitor fermentum. Sed varius vitae odio a dictum. Donec fringilla erat urna, et sollicitudin ex pulvinar sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi finibus ultricies sem, eget feugiat enim consectetur ac",
+        },
+    ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -107,6 +125,26 @@
             <h3 class="font-semibold text-xl sm:text-4xl md:text-5xl">
                 A bit <span class="poppins text-violet-400">about</span> me.
             </h3>
+        </div>
+        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
+            I am . . .
+        </p>
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+            {#each benefits as benefit, index}
+                <div class="flex gap-6 sm:gap-8">
+                    <p
+                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
+                    >
+                        0{index + 1}
+                    </p>
+                    <div class="flex flex-col gap-6 sm:gap-8">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                            {benefit.name}
+                        </h3>
+                        <p>{benefit.description}</p>
+                    </div>
+                </div>
+            {/each}
         </div>
     </section>
 </main>
