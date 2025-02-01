@@ -166,7 +166,7 @@
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
                         <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
                             >Dedication</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500"></i></td
@@ -180,7 +180,7 @@
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
                         <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
                             >Critical Thought</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td
@@ -194,7 +194,7 @@
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
                         <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
                             >Interpersonal Skills</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500"></i></td
@@ -208,7 +208,7 @@
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
                         <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
                             >Programming Ability</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500"></i></td
