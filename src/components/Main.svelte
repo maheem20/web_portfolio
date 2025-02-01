@@ -228,5 +228,6 @@
         <div class="mx-auto mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
+        <p class="mx-auto">So why not invest?</p>
     </section>
 </main>
